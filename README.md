@@ -2,14 +2,14 @@
 
 🎓 **Graduate CS Student @ George Washington University**  
 📱 **Mobile App Developer | Cloud Enthusiast | AI Explorer**  
-🚀 Currently seeking **Software Engineer or Mobile App Developer roles**  
+🚀 Currently seeking **Summer 2025 Software Engineering / ML Internships**  
 🌎 Open to **relocation and remote** roles  
 📫 Reach me at **prithvisarans@gwu.edu**
 
 ---
 
 <div align="center">
-  <a href="https://github.com/prithvisaran3/prithvisaran3/blob/main/Resume%20-%20Prithvi%20Saran.pdf](https://github.com/prithvisaran3/prithvisaran3/blob/main/PRITHVISARAN_SATHYASARAN_SDE_Resume.pdf">
+  <a href="https://github.com/prithvisaran3/prithvisaran3/blob/main/PRITHVISARAN_SATHYASARAN_SDE_Resume.pdf">
     <img src="https://img.shields.io/badge/-Resume-%23833EA5?logo=google-drive&logoColor=white&style=for-the-badge" />
   </a>
   <a href="https://www.linkedin.com/in/prithvisaran/">
