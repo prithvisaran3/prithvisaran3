@@ -9,7 +9,7 @@
 ---
 
 <div align="center">
-  <a href="https://github.com/prithvisaran3/prithvisaran3/blob/main/Resume%20-%20Prithvi%20Saran.pdf">
+  <a href="https://github.com/prithvisaran3/prithvisaran3/blob/main/Resume%20-%20Prithvi%20Saran.pdf](https://github.com/prithvisaran3/prithvisaran3/blob/main/PRITHVISARAN_SATHYASARAN_SDE_Resume.pdf">
     <img src="https://img.shields.io/badge/-Resume-%23833EA5?logo=google-drive&logoColor=white&style=for-the-badge" />
   </a>
   <a href="https://www.linkedin.com/in/prithvisaran/">
