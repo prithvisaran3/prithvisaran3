@@ -2,7 +2,7 @@
 
 🎓 **Graduate CS Student @ George Washington University**  
 📱 **Mobile App Developer | Cloud Enthusiast | AI Explorer**  
-🚀 Currently seeking **Summer 2025 Software Engineering / ML Internships**  
+🚀 Currently seeking **Software Engineer or Mobile App Developer roles**  
 🌎 Open to **relocation and remote** roles  
 📫 Reach me at **prithvisarans@gwu.edu**
 
