@@ -15,9 +15,9 @@
   <a href="https://www.linkedin.com/in/prithvisaran/">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?logo=linkedin&logoColor=white&style=for-the-badge" />
   </a>
-  <a href="https://leetcode.com/prithvisaran/">
-    <img src="https://img.shields.io/badge/-LeetCode-%23FFA116?logo=leetcode&logoColor=white&style=for-the-badge" />
-  </a>
+  <a href="https://leetcode.com/u/prithvisaran3/">
+  <img src="https://img.shields.io/badge/-LeetCode-%23FFA116?logo=leetcode&logoColor=white&style=for-the-badge" />
+</a>
 </div>
 
 ---
