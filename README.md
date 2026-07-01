@@ -33,7 +33,12 @@
   <img src="assets/divider.svg" width="100%" alt="">
 </picture>
 
-## 👤 About Me
+<!-- About Section Header -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-about.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hdr-about.svg">
+  <img src="assets/hdr-about.svg" alt="About Me" height="42">
+</picture>
 
 I build mobile and AI products end to end — from the first Figma wireframe to the App Store review queue. Most engineers stop at "it works." I care about the last ten percent: the animation curve that feels physical, the cold-start latency nobody profiles, the empty state everyone forgets. Twelve-plus production apps, two of them live on the stores, and a run of award-winning AI builds later, that instinct is the throughline.
 
@@ -45,7 +50,12 @@ Right now, I'm finishing my M.S. in Computer Science at **The George Washington 
   <img src="assets/divider.svg" width="100%" alt="">
 </picture>
 
-## 🛠️ Tech Stack &amp; Arsenal
+<!-- Tech Arsenal Header -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-stack.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hdr-stack.svg">
+  <img src="assets/hdr-stack.svg" alt="Tech Arsenal" height="42">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
@@ -59,62 +69,69 @@ Right now, I'm finishing my M.S. in Computer Science at **The George Washington 
   <img src="assets/divider.svg" width="100%" alt="">
 </picture>
 
-## 🚀 Featured Showcase
+<!-- Featured Work Header -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-work.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hdr-work.svg">
+  <img src="assets/hdr-work.svg" alt="Featured Work" height="42">
+</picture>
 
-A selection of products I've put in front of users — and the stack behind each.
+<!-- Interactive Project Cards Showcase -->
 
-<table>
-<tr><td>
+<!-- Prommuni -->
+<a href="https://apps.apple.com/us/app/prommuni/id6747644654">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-prommuni.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-prommuni.svg">
+    <img src="assets/card-prommuni.svg" width="100%" alt="Prommuni — Live on App Store &amp; Play Store">
+  </picture>
+</a>
 
-### 📱 **Prommuni** &nbsp;·&nbsp; *Live on App Store &amp; Google Play*
-A roommate-finder application featuring real-time chat, geolocation matching, and a fluid liquid-glass UI. Designed, built, and shipped to both stores.
 <br>
-`Flutter` &nbsp; `GetX` &nbsp; `Supabase` &nbsp; `Mapbox`
-<br><br>
-👉 [App Store ↗](https://apps.apple.com/us/app/prommuni/id6747644654) &nbsp;·&nbsp; [Play Store ↗](https://play.google.com/store/apps/details?id=com.prommuni.app)
 
-</td></tr>
-<tr><td>
+<!-- Drillhub -->
+<a href="https://apps.apple.com/us/app/drillhub/id6754586332">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-drillhub.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-drillhub.svg">
+    <img src="assets/card-drillhub.svg" width="100%" alt="Drillhub — Live on App Store">
+  </picture>
+</a>
 
-### ⚽ **Drillhub** &nbsp;·&nbsp; *Live on App Store*
-A soccer-academy management platform for coaches and players: event scheduling, drill libraries with video, Stripe payments, and paid-attendee check-in across multi-org structures.
 <br>
-`Flutter` &nbsp; `Riverpod` &nbsp; `Firebase` &nbsp; `Stripe`
-<br><br>
-👉 [App Store ↗](https://apps.apple.com/us/app/drillhub/id6754586332)
 
-</td></tr>
-<tr><td>
+<!-- Blueprint AI -->
+<a href="https://blueprint-ai-rust.vercel.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-blueprint.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-blueprint.svg">
+    <img src="assets/card-blueprint.svg" width="100%" alt="Blueprint AI — Production Deployment">
+  </picture>
+</a>
 
-### 🤖 **Blueprint AI** &nbsp;·&nbsp; *Full-Stack Agentic AI Platform*
-Turns "I have an idea" into "I know how to build it." Seven sequential AI agents share a single typed state model, streaming their progress live to the UI over Server-Sent Events (SSE).
 <br>
-`React 19` &nbsp; `TypeScript` &nbsp; `FastAPI` &nbsp; `LangGraph`
-<br><br>
-👉 [Live Demo ↗](https://blueprint-ai-rust.vercel.app) &nbsp;·&nbsp; [GitHub Repo ↗](https://github.com/prithvisaran3/blueprint-ai)
 
-</td></tr>
-<tr><td>
+<!-- SNAPback -->
+<a href="https://devpost.com/software/snapback-2s1lb7">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-snapback.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-snapback.svg">
+    <img src="assets/card-snapback.svg" width="100%" alt="SNAPback — 1st Place &amp; Open Source Prize Winner">
+  </picture>
+</a>
 
-### 🛒 **SNAPback** &nbsp;·&nbsp; *George Hacks 2026 — Winner + Open Source Prize*
-AI-driven cashback platform for 42M SNAP/WIC families that rewards *sustained* healthy grocery habits instead of one-off purchases.
 <br>
-`Flutter` &nbsp; `Firebase` &nbsp; `Node.js`
-<br><br>
-👉 [Devpost ↗](https://devpost.com/software/snapback-2s1lb7) &nbsp;·&nbsp; [GitHub Repo ↗](https://github.com/prithvisaran3/SNAPback)
 
-</td></tr>
-<tr><td>
+<!-- BarterBrAIn -->
+<a href="https://prithvidevelops.vercel.app/projects">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-barterbrain.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-barterbrain.svg">
+    <img src="assets/card-barterbrain.svg" width="100%" alt="BarterBrAIn — Best Social Good Hack Winner">
+  </picture>
+</a>
 
-### 🤝 **BarterBrAIn** &nbsp;·&nbsp; *Technica 2025 — Best Hack for Social Good*
-A student bartering marketplace with Gemini-powered price prediction and an in-chat negotiation assistant that suggests optimal offers.
 <br>
-`Flutter` &nbsp; `Firebase` &nbsp; `Gemini API` &nbsp; `Capital One API`
-<br><br>
-👉 [Project Details ↗](https://prithvidevelops.vercel.app/projects)
-
-</td></tr>
-</table>
 
 <sub>More on the [projects page ↗](https://prithvidevelops.vercel.app/projects) — PitchPulse (Hacklytics 2026), AuraTranslate, and 12 others.</sub>
 
@@ -124,7 +141,12 @@ A student bartering marketplace with Gemini-powered price prediction and an in-c
   <img src="assets/divider.svg" width="100%" alt="">
 </picture>
 
-## 💼 Experience
+<!-- Experience Header -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-exp.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hdr-exp.svg">
+  <img src="assets/hdr-exp.svg" alt="Experience" height="42">
+</picture>
 
 <sub>≈ 2 years shipping mobile across four engineering teams.</sub>
 
@@ -153,13 +175,29 @@ A student bartering marketplace with Gemini-powered price prediction and an in-c
   <img src="assets/divider.svg" width="100%" alt="">
 </picture>
 
-## 🎯 Current Focus
+<!-- Current Focus Header -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-focus.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hdr-focus.svg">
+  <img src="assets/hdr-focus.svg" alt="Current Focus" height="42">
+</picture>
 
 - Shipping **AuraTranslate** — on-device, real-time image translation with Core ML and Vision.
 - Going deeper on **agentic AI** — multi-agent orchestration and typed state with LangGraph.
 - Open to full-time roles: **Software · Mobile · ML · Cloud** engineering.
 
-## 🧠 Philosophy
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/divider.svg">
+  <img src="assets/divider.svg" width="100%" alt="">
+</picture>
+
+<!-- Philosophy Header -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-philosophy.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hdr-philosophy.svg">
+  <img src="assets/hdr-philosophy.svg" alt="Philosophy" height="42">
+</picture>
 
 > *Ship it, then earn the polish.*
 >
