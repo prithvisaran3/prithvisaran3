@@ -1,73 +1,300 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Prithvi Saran — Mobile and AI Product Engineer">
   <defs>
+    <!-- Background styling and layouts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&amp;display=swap');
+      
+      .text-title {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 64px;
+        letter-spacing: -2px;
+      }
+      .text-sub {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 21px;
+        letter-spacing: 0.2px;
+      }
+      .text-meta {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 13.5px;
+      }
+      .text-chip {
+        font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 1px;
+      }
+
+      /* Base keyframe animations */
+      @keyframes gradientShift {
+        0% { stop-color: #6366F1; }
+        33% { stop-color: #EC4899; }
+        66% { stop-color: #3B82F6; }
+        100% { stop-color: #6366F1; }
+      }
+      @keyframes gradientShift2 {
+        0% { stop-color: #A855F7; }
+        33% { stop-color: #3B82F6; }
+        66% { stop-color: #10B981; }
+        100% { stop-color: #A855F7; }
+      }
+      
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.25; }
+        50% { opacity: 0.45; }
+      }
+
+      @keyframes floatUp {
+        0% { transform: translateY(40px) translateX(0px); opacity: 0; }
+        50% { opacity: 0.5; }
+        100% { transform: translateY(-80px) translateX(20px); opacity: 0; }
+      }
+
+      @keyframes gridTravel {
+        from { transform: translateY(0); }
+        to { transform: translateY(40px); }
+      }
+
+      @keyframes rotRing {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      @keyframes rotRingRev {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(-360deg); }
+      }
+
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -40; }
+      }
+
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(99, 102, 241, 0.6)); }
+        50% { transform: scale(1.3); filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.9)); }
+      }
+      
+      @keyframes pulseNodeCyan {
+        0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(34, 211, 238, 0.6)); }
+        50% { transform: scale(1.3); filter: drop-shadow(0 0 8px rgba(34, 211, 238, 0.9)); }
+      }
+
+      /* Assigning classes */
+      .bg-glow {
+        animation: pulseGlow 8s ease-in-out infinite;
+      }
+      .perspective-grid {
+        animation: gridTravel 2.5s linear infinite;
+      }
+      .ring-rotate {
+        transform-origin: 1000px 170px;
+        animation: rotRing 25s linear infinite;
+      }
+      .ring-rotate-rev {
+        transform-origin: 1000px 170px;
+        animation: rotRingRev 20s linear infinite;
+      }
+      .data-line {
+        stroke-dasharray: 8 12;
+        animation: dashFlow 2s linear infinite;
+      }
+      .data-line-fast {
+        stroke-dasharray: 6 10;
+        animation: dashFlow 1.2s linear infinite;
+      }
+      .node-pulse {
+        transform-origin: 1000px 170px; /* Center */
+        animation: pulseNode 3s ease-in-out infinite;
+      }
+      .node-pulse-cyan {
+        animation: pulseNodeCyan 3.5s ease-in-out infinite;
+      }
+      
+      /* Particle individual setups */
+      .p1 { animation: floatUp 8s ease-in-out infinite; animation-delay: 0s; }
+      .p2 { animation: floatUp 6s ease-in-out infinite; animation-delay: 2.5s; }
+      .p3 { animation: floatUp 9s ease-in-out infinite; animation-delay: 1s; }
+      .p4 { animation: floatUp 7s ease-in-out infinite; animation-delay: 4s; }
+    </style>
+
+    <!-- Glowing Linear Gradients -->
+    <linearGradient id="gradient-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1">
+        <animate attributeName="stop-color" values="#6366F1; #EC4899; #3B82F6; #6366F1" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7; #3B82F6; #10B981; #A855F7" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#6366F1"/>
       <stop offset="0.5" stop-color="#22D3EE"/>
       <stop offset="1" stop-color="#A855F7"/>
     </linearGradient>
+
     <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.8"/>
       <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.26" cy="0.42" r="0.6">
-      <stop offset="0" stop-color="#6366F1" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.25"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.05"/>
+
+    <!-- Custom DOT pattern -->
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#ffffff" fill-opacity="0.06"/>
     </pattern>
-    <clipPath id="frame"><rect width="1200" height="340" rx="0"/></clipPath>
+
+    <clipPath id="frame"><rect width="1200" height="340" rx="16"/></clipPath>
   </defs>
 
+  <!-- Main Container -->
   <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="#0A0A0B"/>
-    <rect width="1200" height="340" fill="url(#dots)"/>
-    <rect width="1200" height="340" fill="url(#glow)">
-      <animate attributeName="opacity" values="0.55;1;0.55" dur="9s" repeatCount="indefinite"/>
-    </rect>
-
-    <!-- monogram chip -->
-    <g transform="translate(80,52)">
-      <rect width="48" height="48" rx="13" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.10"/>
-      <text x="24" y="32" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#F5F5F7">PS</text>
+    <!-- Deep space background -->
+    <rect width="1200" height="340" fill="#040408"/>
+    
+    <!-- Moving perspective grid -->
+    <g opacity="0.12">
+      <!-- Grid lines vertical -->
+      <line x1="80" y1="0" x2="-200" y2="340" stroke="#6366F1" stroke-width="1"/>
+      <line x1="280" y1="0" x2="100" y2="340" stroke="#6366F1" stroke-width="1"/>
+      <line x1="480" y1="0" x2="400" y2="340" stroke="#6366F1" stroke-width="1"/>
+      <line x1="680" y1="0" x2="700" y2="340" stroke="#6366F1" stroke-width="1"/>
+      <line x1="880" y1="0" x2="1000" y2="340" stroke="#6366F1" stroke-width="1"/>
+      
+      <!-- Travelling horizontal grid lines -->
+      <g class="perspective-grid">
+        <line x1="0" y1="-40" x2="1200" y2="-40" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="0" x2="1200" y2="0" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="40" x2="1200" y2="40" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="80" x2="1200" y2="80" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="120" x2="1200" y2="120" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="160" x2="1200" y2="160" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="200" x2="1200" y2="200" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="240" x2="1200" y2="240" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="280" x2="1200" y2="280" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="320" x2="1200" y2="320" stroke="#6366F1" stroke-width="0.8"/>
+        <line x1="0" y1="360" x2="1200" y2="360" stroke="#6366F1" stroke-width="0.8"/>
+      </g>
     </g>
 
-    <text x="80" y="172" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" letter-spacing="-1.6" fill="#F5F5F7">Prithvi Saran</text>
+    <!-- Dot Pattern -->
+    <rect width="1200" height="340" fill="url(#dots)"/>
 
-    <text x="82" y="212" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="500" letter-spacing="0.2" fill="#B7B7C2">Mobile &amp; AI engineer — I ship products, from the App Store to AI systems.</text>
+    <!-- Large radial glows -->
+    <circle cx="200" cy="170" r="350" fill="url(#glow)" class="bg-glow"/>
+    <circle cx="1000" cy="170" r="300" fill="url(#glow)" class="bg-glow" style="animation-delay: -4s;"/>
 
-    <!-- accent rule + moving sheen -->
-    <g transform="translate(82,236)">
-      <rect width="360" height="3" rx="1.5" fill="url(#accent)"/>
-      <rect width="95" height="3" rx="1.5" fill="url(#sheen)">
-        <animate attributeName="x" values="-95;360" dur="4.8s" repeatCount="indefinite"/>
+    <!-- Floating Particles -->
+    <circle cx="120" cy="240" r="3" fill="#22D3EE" class="p1" />
+    <circle cx="340" cy="280" r="2.5" fill="#6366F1" class="p2" />
+    <circle cx="560" cy="220" r="4" fill="#D946EF" class="p3" />
+    <circle cx="220" cy="300" r="2" fill="#3B82F6" class="p4" />
+
+    <!-- MONOGRAM CHIP (Glassmorphism look) -->
+    <g transform="translate(80,50)">
+      <rect width="56" height="30" rx="8" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-opacity="0.12" style="backdrop-filter: blur(10px);"/>
+      <text x="28" y="19" text-anchor="middle" class="text-chip" fill="#ffffff" fill-opacity="0.8">PRO</text>
+    </g>
+
+    <!-- MAIN NAME & TITLE -->
+    <text x="80" y="152" class="text-title" fill="url(#gradient-text)">Prithvi Saran</text>
+    <text x="82" y="194" class="text-sub" fill="#F3F4F6">Mobile &amp; AI Product Engineer</text>
+    
+    <!-- Animating Accent Line under description -->
+    <g transform="translate(82,216)">
+      <rect width="400" height="4" rx="2" fill="url(#accent)" opacity="0.8"/>
+      <rect width="100" height="4" rx="2" fill="url(#sheen)">
+        <animate attributeName="x" values="-100;400" dur="4s" repeatCount="indefinite"/>
       </rect>
     </g>
 
-    <!-- meta line -->
-    <g font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="500" fill="#8A8A94">
-      <text x="82" y="278">Washington, DC</text>
-      <circle cx="201" cy="274" r="1.6" fill="#3A3A42"/>
-      <text x="213" y="278">M.S. Computer Science, GWU</text>
-      <circle cx="431" cy="274" r="1.6" fill="#3A3A42"/>
-      <text x="445" y="278">Open to full-time</text>
+    <!-- META METRICS / INFO ROW -->
+    <g font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="500" fill="#9CA3AF">
+      <!-- Location with ping circle -->
+      <g transform="translate(82, 260)">
+        <circle cx="0" cy="-4" r="3" fill="#10B981">
+          <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="12" y="0" class="text-meta" fill="#D1D5DB">Washington, DC</text>
+      </g>
+      
+      <!-- Separator Dot -->
+      <circle cx="230" cy="256" r="2" fill="#4B5563"/>
+      
+      <!-- Education Info -->
+      <g transform="translate(245, 260)">
+        <text x="0" y="0" class="text-meta" fill="#D1D5DB">M.S. Computer Science @ GWU</text>
+      </g>
+      
+      <!-- Separator Dot -->
+      <circle cx="482" cy="256" r="2" fill="#4B5563"/>
+      
+      <!-- Status Info -->
+      <g transform="translate(497, 260)">
+        <text x="0" y="0" class="text-meta" fill="#F472B6" font-weight="600">Open to full-time opportunities</text>
+      </g>
     </g>
 
-    <!-- concentric signal arcs -->
-    <g transform="translate(1010,168)" fill="none" stroke-width="1.5" stroke-linecap="round">
-      <circle r="30" stroke="#6366F1" stroke-opacity="0.55"/>
-      <circle r="60" stroke="#22D3EE" stroke-opacity="0.30">
-        <animate attributeName="stroke-opacity" values="0.30;0.08;0.30" dur="6s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="92" stroke="#A855F7" stroke-opacity="0.20">
-        <animate attributeName="stroke-opacity" values="0.20;0.05;0.20" dur="7.5s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="120" stroke="#ffffff" stroke-opacity="0.06"/>
-      <circle r="4" fill="#22D3EE" stroke="none"/>
+    <!-- RIGHT SIDE GRAPHICS: CYBERNETIC NEURAL ORB -->
+    <!-- Orbiting rings -->
+    <g class="ring-rotate" opacity="0.4">
+      <circle cx="1000" cy="170" r="110" fill="none" stroke="#6366F1" stroke-width="1" stroke-dasharray="10 30"/>
+      <circle cx="1000" cy="170" r="80" fill="none" stroke="#D946EF" stroke-width="1.5" stroke-dasharray="180 50"/>
+    </g>
+    <g class="ring-rotate-rev" opacity="0.3">
+      <circle cx="1000" cy="170" r="140" fill="none" stroke="#22D3EE" stroke-width="1.2" stroke-dasharray="40 100"/>
+      <circle cx="1000" cy="170" r="50" fill="none" stroke="#818CF8" stroke-width="1" stroke-dasharray="5 15"/>
     </g>
 
-    <rect x="0" y="0" width="1200" height="1" fill="#ffffff" fill-opacity="0.06"/>
-    <rect x="0" y="339" width="1200" height="1" fill="#ffffff" fill-opacity="0.06"/>
+    <!-- Neural Connections (Data packet flow) -->
+    <!-- Node A (Center): 1000, 170 -->
+    <!-- Node B (Top Left): 910, 100 -->
+    <!-- Node C (Top Right): 1090, 100 -->
+    <!-- Node D (Bottom Left): 910, 240 -->
+    <!-- Node E (Bottom Right): 1090, 240 -->
+    <!-- Node F (Middle Left): 860, 170 -->
+    <!-- Node G (Middle Right): 1140, 170 -->
+    <g stroke="#6366F1" stroke-opacity="0.35" stroke-width="1.5" fill="none">
+      <!-- Direct lines -->
+      <line x1="860" y1="170" x2="910" y2="100"/>
+      <line x1="860" y1="170" x2="910" y2="240"/>
+      <line x1="910" y1="100" x2="1000" y2="170"/>
+      <line x1="910" y1="240" x2="1000" y2="170"/>
+      <line x1="1000" y1="170" x2="1090" y2="100"/>
+      <line x1="1000" y1="170" x2="1090" y2="240"/>
+      <line x1="1090" y1="100" x2="1140" y2="170"/>
+      <line x1="1090" y1="240" x2="1140" y2="170"/>
+      
+      <!-- Flowing data packet overlays -->
+      <path d="M 860 170 L 910 100 L 1000 170 L 1090 240 L 1140 170" stroke="#22D3EE" stroke-opacity="0.8" class="data-line-fast"/>
+      <path d="M 860 170 L 910 240 L 1000 170 L 1090 100 L 1140 170" stroke="#D946EF" stroke-opacity="0.8" class="data-line"/>
+    </g>
+
+    <!-- Glowing Node Dots -->
+    <g>
+      <!-- Center Core Node -->
+      <circle cx="1000" cy="170" r="7" fill="#6366F1" class="node-pulse"/>
+      <circle cx="1000" cy="170" r="3" fill="#ffffff"/>
+      
+      <!-- Network Nodes -->
+      <circle cx="860" cy="170" r="5" fill="#22D3EE" class="node-pulse-cyan"/>
+      <circle cx="910" cy="100" r="4.5" fill="#818CF8"/>
+      <circle cx="910" cy="240" r="4.5" fill="#818CF8"/>
+      <circle cx="1090" cy="100" r="4.5" fill="#D946EF"/>
+      <circle cx="1090" cy="240" r="4.5" fill="#D946EF"/>
+      <circle cx="1140" cy="170" r="5" fill="#22D3EE" class="node-pulse-cyan" style="animation-delay: -1.7s;"/>
+    </g>
+
+    <!-- Sleek border outline -->
+    <rect x="0.5" y="0.5" width="1199" height="339" rx="15.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
   </g>
 </svg>

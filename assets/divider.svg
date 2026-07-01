@@ -1,18 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 22" role="presentation">
   <defs>
+    <!-- Background subtle track line -->
     <linearGradient id="base" x1="0" x2="1">
-      <stop offset="0" stop-color="#8B8BA7" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#8B8BA7" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#8B8BA7" stop-opacity="0"/>
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="0.15" stop-color="#6366F1" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#A855F7" stop-opacity="0.25"/>
+      <stop offset="0.85" stop-color="#6366F1" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="streak" x1="0" x2="1">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    <!-- Left-to-right glowing pulse -->
+    <linearGradient id="streak-right" x1="0" x2="1">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="1"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Right-to-left glowing pulse -->
+    <linearGradient id="streak-left" x1="0" x2="1">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D946EF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="10" width="1200" height="1.4" fill="url(#base)"/>
-  <rect y="10" width="240" height="1.4" fill="url(#streak)">
-    <animate attributeName="x" values="-240;1200" dur="7s" repeatCount="indefinite"/>
+  <!-- Background trace line -->
+  <rect x="0" y="10" width="1200" height="2" fill="url(#base)"/>
+  
+  <!-- Right moving streak -->
+  <rect y="10" width="300" height="2" fill="url(#streak-right)">
+    <animate attributeName="x" values="-300;1200" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Left moving streak -->
+  <rect y="10" width="300" height="2" fill="url(#streak-left)">
+    <animate attributeName="x" values="1200;-300" dur="8s" repeatCount="indefinite"/>
   </rect>
 </svg>
