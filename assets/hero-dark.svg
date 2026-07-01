@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Prithvi Saran — Mobile and AI Product Engineer">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.26" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#6366F1" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.05"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="340" rx="0"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="#0A0A0B"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <rect width="1200" height="340" fill="url(#glow)">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="9s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- monogram chip -->
+    <g transform="translate(80,52)">
+      <rect width="48" height="48" rx="13" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.10"/>
+      <text x="24" y="32" text-anchor="middle" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="1" fill="#F5F5F7">PS</text>
+    </g>
+
+    <text x="80" y="172" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" letter-spacing="-1.6" fill="#F5F5F7">Prithvi Saran</text>
+
+    <text x="82" y="212" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="20" font-weight="500" letter-spacing="0.2" fill="#B7B7C2">Mobile &amp; AI engineer — I ship products, from the App Store to AI systems.</text>
+
+    <!-- accent rule + moving sheen -->
+    <g transform="translate(82,236)">
+      <rect width="360" height="3" rx="1.5" fill="url(#accent)"/>
+      <rect width="95" height="3" rx="1.5" fill="url(#sheen)">
+        <animate attributeName="x" values="-95;360" dur="4.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- meta line -->
+    <g font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="500" fill="#8A8A94">
+      <text x="82" y="278">Washington, DC</text>
+      <circle cx="201" cy="274" r="1.6" fill="#3A3A42"/>
+      <text x="213" y="278">M.S. Computer Science, GWU</text>
+      <circle cx="431" cy="274" r="1.6" fill="#3A3A42"/>
+      <text x="445" y="278">Open to full-time</text>
+    </g>
+
+    <!-- concentric signal arcs -->
+    <g transform="translate(1010,168)" fill="none" stroke-width="1.5" stroke-linecap="round">
+      <circle r="30" stroke="#6366F1" stroke-opacity="0.55"/>
+      <circle r="60" stroke="#22D3EE" stroke-opacity="0.30">
+        <animate attributeName="stroke-opacity" values="0.30;0.08;0.30" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="92" stroke="#A855F7" stroke-opacity="0.20">
+        <animate attributeName="stroke-opacity" values="0.20;0.05;0.20" dur="7.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="120" stroke="#ffffff" stroke-opacity="0.06"/>
+      <circle r="4" fill="#22D3EE" stroke="none"/>
+    </g>
+
+    <rect x="0" y="0" width="1200" height="1" fill="#ffffff" fill-opacity="0.06"/>
+    <rect x="0" y="339" width="1200" height="1" fill="#ffffff" fill-opacity="0.06"/>
+  </g>
+</svg>

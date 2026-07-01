@@ -1,101 +1,177 @@
-# 👋 Hi, I'm Prithvi Saran Sathyasaran
+<!--
+  ───────────────────────────────────────────────────────────
+  If you're reading the raw source, you're exactly the kind of
+  person I'd want to build with. Say hi — prithvisarans@gwu.edu
+  ───────────────────────────────────────────────────────────
+-->
 
-🎓 **Graduate CS Student @ George Washington University**  
-📱 **Mobile App Developer | Cloud Enthusiast | AI Explorer**  
-🚀 Currently seeking **Summer 2025 Software Engineering / ML Internships**  
-🌎 Open to **relocation and remote** roles  
-📫 Reach me at **prithvisarans@gwu.edu**
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Prithvi Saran — Mobile & AI engineer. I ship products, from the App Store to AI systems." src="assets/hero-dark.svg" width="100%">
+</picture>
 
----
+<p align="center">
+  <a href="https://prithvidevelops.vercel.app">Portfolio&nbsp;↗</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/prithvisaransathyasaran/">LinkedIn&nbsp;↗</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://leetcode.com/u/prithvisaran3/">LeetCode&nbsp;↗</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:prithvisarans@gwu.edu">Email&nbsp;↗</a>
+</p>
 
-<div align="center">
-  <a href="https://github.com/prithvisaran3/prithvisaran3/blob/main/PRITHVISARAN_SATHYASARAN_SDE_Resume.pdf">
-    <img src="https://img.shields.io/badge/-Resume-%23833EA5?logo=google-drive&logoColor=white&style=for-the-badge" />
-  </a>
-  <a href="https://www.linkedin.com/in/prithvisaran/">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?logo=linkedin&logoColor=white&style=for-the-badge" />
-  </a>
-  <a href="https://leetcode.com/u/prithvisaran3/">
-  <img src="https://img.shields.io/badge/-LeetCode-%23FFA116?logo=leetcode&logoColor=white&style=for-the-badge" />
-</a>
-</div>
+<p align="center">
+  <sub><b>12+</b>&nbsp;apps shipped&nbsp;&nbsp;·&nbsp;&nbsp;<b>2</b>&nbsp;live on App&nbsp;Store &amp; Google&nbsp;Play&nbsp;&nbsp;·&nbsp;&nbsp;<b>10K+</b>&nbsp;users&nbsp;&nbsp;·&nbsp;&nbsp;<b>4</b>&nbsp;engineering internships&nbsp;&nbsp;·&nbsp;&nbsp;<b>2×</b>&nbsp;hackathon winner</sub>
+</p>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
-## 🛠️ Tech Stack
+## About
 
-### 💻 Languages
-<div>
-  <img src="https://img.shields.io/badge/-Dart-%230175C2?logo=dart&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Python-%233776AB?logo=python&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-C++-%2300599C?logo=c%2b%2b&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-JavaScript-%23F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Java-%23007396?logo=java&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-R-%2317769A?logo=r&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-SQL-%2300758F?logo=postgresql&logoColor=white&style=for-the-badge" />
-</div>
+I build mobile and AI products end to end — from the first Figma frame to the App Store review queue. Most engineers stop at "it works." I care about the last ten percent: the animation curve that feels physical, the cold-start latency nobody profiles, the empty state everyone forgets. Twelve-plus production apps, two of them live on the stores, and a run of award-winning AI builds later, that instinct is the throughline.
 
-### 🧩 Frameworks & Libraries
-<div>
-  <img src="https://img.shields.io/badge/-Flutter-%2302569B?logo=flutter&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-React%20Native-%2361DAFB?logo=react&logoColor=black&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Swift-%23FA7343?logo=swift&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Node.js-%23339933?logo=node.js&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Django-%23092E20?logo=django&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-TensorFlow-%23FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Keras-%23D00000?logo=keras&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-REST%20API-%23000000?logo=api&logoColor=white&style=for-the-badge" />
-</div>
+Right now I'm finishing my M.S. in Computer Science at **The George Washington University** and looking for a full-time team that ships with taste.
 
-### 🧰 Tools & Platforms
-<div>
-  <img src="https://img.shields.io/badge/-Git-%23F05032?logo=git&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-GitHub-%23181717?logo=github&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Figma-%23F24E1E?logo=figma&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Postman-%23FF6C37?logo=postman&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-VS%20Code-%23007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge" />
-</div>
+## Featured Work
 
-### ☁️ Cloud & Databases
-<div>
-  <img src="https://img.shields.io/badge/-AWS-%23232F3E?logo=amazon-aws&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Firebase-%23FFCA28?logo=firebase&logoColor=black&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-Supabase-%2336C493?logo=supabase&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-MongoDB-%2347A248?logo=mongodb&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-MySQL-%234479A1?logo=mysql&logoColor=white&style=for-the-badge" />
-</div>
+A few things I've actually put in front of users — and the stack behind each.
 
----
+<table>
+<tr><td>
 
-## 📱 Featured Projects
+**Prommuni** &nbsp;·&nbsp; *Live on App Store & Google Play*<br>
+A roommate-finder app with real-time chat, geolocation matching, and a fluid liquid-glass UI. Built and shipped to both stores.<br>
+`Flutter` &nbsp;`GetX` &nbsp;`Supabase` &nbsp;`Mapbox`<br>
+[App Store ↗](https://apps.apple.com/us/app/prommuni/id6747644654) &nbsp;·&nbsp; [Play Store ↗](https://play.google.com/store/apps/details?id=com.prommuni.app)
 
-### 🐶 Pawfect – iOS App  
-Tinder-style pet social app built with **Swift** + **Supabase** + **Firebase** with real-time chat.
+</td></tr>
+<tr><td>
 
-### 📚 Oxford Psych LMS App  
-LMS app for iOS/Android built with **Flutter**, featuring dynamic UI, animations & API integration.
+**Drillhub** &nbsp;·&nbsp; *Live on App Store*<br>
+A soccer-academy platform for coaches and players: event scheduling, drill libraries with video, Stripe payments, and paid-attendee check-in across multi-org structures.<br>
+`Flutter` &nbsp;`Riverpod` &nbsp;`Firebase` &nbsp;`Stripe`<br>
+[App Store ↗](https://apps.apple.com/us/app/drillhub/id6754586332)
 
-### 💸 ExSpends – Expense Tracker  
-Flutter + Node.js/MongoDB app for income/expense management with JWT auth & charts.
+</td></tr>
+<tr><td>
 
-### 📊 Retail Sales Forecasting  
-Kaggle-based ML project with **XGBoost** & **Linear Regression** for time-series forecasting.
+**Blueprint AI** &nbsp;·&nbsp; *Full-stack AI product*<br>
+Turns "I have an idea" into "I know how to build it." Seven sequential AI agents share a single typed state model, streaming their progress live to the UI over SSE.<br>
+`React 19` &nbsp;`TypeScript` &nbsp;`FastAPI` &nbsp;`LangGraph`<br>
+[Live ↗](https://blueprint-ai-rust.vercel.app) &nbsp;·&nbsp; [GitHub ↗](https://github.com/prithvisaran3/blueprint-ai)
 
----
+</td></tr>
+<tr><td>
 
-## 📜 Certifications
+**SNAPback** &nbsp;·&nbsp; *George Hacks 2026 — Winner + Open Source Prize*<br>
+AI-driven cashback for 42M SNAP/WIC families that rewards *sustained* healthy grocery habits instead of one-off purchases.<br>
+`Flutter` &nbsp;`Firebase` &nbsp;`Node.js`<br>
+[Devpost ↗](https://devpost.com/software/snapback-2s1lb7) &nbsp;·&nbsp; [GitHub ↗](https://github.com/prithvisaran3/SNAPback)
 
-- ✅ **AWS Certified Cloud Practitioner** – *Amazon Web Services (2024)*  
-- 🎯 **Algorithmic Thinking** – *Rice University on Coursera*  
-- 💼 **Accenture Project Management Virtual Experience** – *Forage (2023)*
+</td></tr>
+<tr><td>
 
----
+**BarterBrAIn** &nbsp;·&nbsp; *Technica 2025 — Best Hack for Social Good*<br>
+A student bartering marketplace with Gemini-powered price prediction and an in-chat negotiation assistant that suggests optimal offers.<br>
+`Flutter` &nbsp;`Firebase` &nbsp;`Gemini API` &nbsp;`Capital One API`<br>
+[Details ↗](https://prithvidevelops.vercel.app/projects)
 
-## 🌟 Let’s Collaborate!
+</td></tr>
+</table>
 
-I'm passionate about crafting scalable software and intuitive mobile apps.  
-Whether it's building the next big thing or solving a real-world challenge — I'm in.
+<sub>More on the [projects page ↗](https://prithvidevelops.vercel.app/projects) — PitchPulse (Hacklytics 2026), AuraTranslate, and 12 others.</sub>
 
-📬 Feel free to [connect](https://www.linkedin.com/in/prithvisaran/) or email me at **prithvisarans@gwu.edu**!
+<img src="assets/divider.svg" width="100%" alt="">
 
----
+## Experience
+
+<sub>≈ 2 years shipping mobile across four teams.</sub>
+
+<table>
+<tr><td>
+
+**Cloud Jovy** &nbsp;—&nbsp; Software Engineer Intern &nbsp;·&nbsp; San Diego, CA<br>
+<sub>Built and shipped Flutter features for cross-platform products.</sub>
+
+</td></tr>
+<tr><td>
+
+**Prommuni** &nbsp;—&nbsp; Mobile Engineer Intern &nbsp;·&nbsp; Maryland<br>
+<sub>Took the Prommuni app from build to launch on the App Store and Google Play.</sub>
+
+</td></tr>
+<tr><td>
+
+**LIMIT LESS 360** &nbsp;—&nbsp; Mobile App Developer<br>
+<sub>Cross-platform Flutter apps published under the studio.</sub>
+
+</td></tr>
+<tr><td>
+
+**TechCiti** &nbsp;—&nbsp; Mobile App Developer<br>
+<sub>Client Flutter, Android, and iOS work.</sub>
+
+</td></tr>
+</table>
+
+## Stack
+
+The tools I reach for, grouped by where they live in a product.
+
+<table>
+<tr>
+  <td valign="top"><sub><b>MOBILE</b></sub></td>
+  <td><code>Flutter</code> <code>Dart</code> <code>Swift</code> <code>SwiftUI</code> <code>Kotlin</code></td>
+</tr>
+<tr>
+  <td valign="top"><sub><b>AI / ML</b></sub></td>
+  <td><code>LangGraph</code> <code>Gemini</code> <code>PyTorch</code> <code>Core ML</code> <code>LLM integration</code></td>
+</tr>
+<tr>
+  <td valign="top"><sub><b>BACKEND</b></sub></td>
+  <td><code>Python</code> <code>FastAPI</code> <code>Node.js</code> <code>Django</code> <code>REST</code></td>
+</tr>
+<tr>
+  <td valign="top"><sub><b>CLOUD&nbsp;·&nbsp;DATA</b></sub></td>
+  <td><code>AWS</code> <code>Firebase</code> <code>Supabase</code> <code>DynamoDB</code></td>
+</tr>
+<tr>
+  <td valign="top"><sub><b>WEB</b></sub></td>
+  <td><code>React 19</code> <code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code></td>
+</tr>
+</table>
+
+## Current Focus
+
+- Shipping **AuraTranslate** — on-device, real-time image translation with Core&nbsp;ML and Vision.
+- Going deeper on **agentic AI** — multi-agent orchestration and typed state with LangGraph.
+- Open to full-time roles: **Software · Mobile · ML · Cloud** engineering.
+
+## Philosophy
+
+> Ship it, then earn the polish.
+>
+> The gap between a demo and a product is the boring ten percent — the error states, the offline path, the sixty-frames-per-second scroll. I'd rather ship one thing that feels inevitable than five that feel like prototypes.
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Connect
+
+<p align="center">
+  <a href="https://prithvidevelops.vercel.app"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/prithvisaransathyasaran/"><b>LinkedIn</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/prithvisaran3"><b>GitHub</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://leetcode.com/u/prithvisaran3/"><b>LeetCode</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:prithvisarans@gwu.edu"><b>Email</b></a>
+</p>
+
+<details>
+<summary align="center"><sub>A few things that don't fit on a résumé</sub></summary>
+
+<br>
+
+- I name side projects before I build them — *Pounster* (a real-time job-alert app) got its name from "pounce" months before the first commit.
+- I trade FIFA Ultimate Team. It's low-key market-making: read the demand curve, price the spread, exit before the crowd. Same muscle as shipping.
+- My favorite part of any build is the empty state. If you sweat the screen with nothing on it, you sweat everything.
+
+</details>
+
+<p align="center"><sub>Designed and written by hand. Last shipped 2026.</sub></p>
