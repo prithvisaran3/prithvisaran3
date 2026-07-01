@@ -168,7 +168,7 @@ The tools I reach for, grouped by where they live in a product.
 
 <br>
 
-- I name side projects before I build them — *Pounster* (a real-time job-alert app) got its name from "pounce" months before the first commit.
+- I name side projects before I build them — *Pouncio* (a real-time job-alert app) got its name from "pounce" months before the first commit.
 - I trade FIFA Ultimate Team. It's low-key market-making: read the demand curve, price the spread, exit before the crowd. Same muscle as shipping.
 - My favorite part of any build is the empty state. If you sweat the screen with nothing on it, you sweat everything.
 
